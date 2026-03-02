@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-forest-green: #1B3022;
+  --color-deep-red:     #8B0000;
+  --color-cream:        #F5F5DC;
+
+  /* Typography */
+  --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-sans:    var(--font-inter),    "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F5F5DC;
+  color: #1B3022;
+  font-family: var(--font-inter), "Inter", system-ui, sans-serif;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
