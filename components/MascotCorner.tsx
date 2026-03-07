@@ -120,7 +120,7 @@ export default function MascotCorner() {
                     src="/images/mascot/gamebox.png"
                     alt="Game Box Experience — Board Games at Triple A Coffee"
                     fill
-                    className="object-cover"
+                    className="object-center"
                     sizes="(max-width: 768px) 160px, 180px"
                   />
                 </div>
